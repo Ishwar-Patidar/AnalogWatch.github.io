@@ -1,0 +1,47 @@
+#clockcontainer {
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    margin: auto;
+    background-image: url(1604100.jpg);
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background-color: rgba(7, 7, 7, 0.686);
+    border: 1px solid black;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+#hour {
+    height: 25.1%;
+    width: 1.7%;
+    margin-top: 26%;
+    margin-left: 49.6%;
+}
+
+#minute {
+    height: 29.4%;
+    width: 1.3%;
+    margin-top: 21.6%;
+    margin-left: 49.9%;
+}
+
+#second {
+    height: 32.8%;
+    width: 0.6%;
+    margin-top: 18.1%;
+    margin-left: 50.2%;
+}
+
+#digitalClockContainer {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(113, 105, 152, 0.705);
+}
